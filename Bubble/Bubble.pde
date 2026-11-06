@@ -1,5 +1,6 @@
-
+//this is a basic code of the partacal effect
 Bubbles[] b =  new Bubbles[100];
+//Like before this is for the canva setup
 void setup(){
 background(0,0,0);  
   size (500,500); 
@@ -8,8 +9,9 @@ background(0,0,0);
   
   }
 }
-  
+  //and this is to put the partacals into the canva
 void draw() {
+  background(0);
   
   for(int i =0; i < b.length; i ++){
     Bubbles x = b[i];
@@ -17,7 +19,6 @@ void draw() {
     x.Render();
   
   }
-  
 }
   
   

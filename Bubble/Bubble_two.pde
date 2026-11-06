@@ -1,3 +1,4 @@
+//Parical effect using a class called Bubbles because the effect looks like Bubbles
 class Bubbles
 {
 
@@ -16,7 +17,12 @@ class Bubbles
   void Update()
   {
     pos.y --; 
+if(pos.y == 0)
+{
+pos.y = 500;
 
+
+}
   }
   void Render()
   {
