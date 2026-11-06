@@ -1,3 +1,4 @@
+// this code is to detect audio
 import processing.sound.*;
 
 AudioIn in;
@@ -9,7 +10,7 @@ void setup() {
   amp.input(in);
   in.start();
 
-  //lol funny audio fart.mp3
+
 }
 
 void draw() {
