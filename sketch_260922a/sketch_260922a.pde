@@ -1,26 +1,3 @@
-/*
-//this is my first time coding in this class
-
-
-String myString = "Hello my baby hello my father something music goes here";
-
- float myFloat = 3.14;
-
-int myInt = 73;
-
-boolean myBool = true;
-
-println(myString);
-
-//Float
-
-
-//int
-*/
-
-
-
-
 void setup() // -> same as void start in unity and begin in unreal 
 {
   rectMode(CENTER);
